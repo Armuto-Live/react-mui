@@ -32,7 +32,7 @@ const Navbar = () => {
         <Icons>
         <SearchIcon/>
         </Icons>
-        <Button variant="text" startIcon={<SearchIcon/>}>
+        <Button variant="contained" color='secondary' startIcon={<SearchIcon/>}>
           Search
         </Button>
       </StyleToolBar>
